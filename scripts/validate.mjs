@@ -1,16 +1,6 @@
 import { readFileSync } from "node:fs";
 
-const topics = [
-  "portfolio",
-  "etf-flows",
-  "fund-flows",
-  "policy",
-  "macro",
-  "sentiment",
-  "ucits",
-  "offices",
-  "eltif",
-];
+const topics = ["portfolio", "etf-flows", "fund-flows", "policy", "macro", "sentiment", "ucits", "offices", "eltif"];
 
 function fail(message) {
   console.error(message);
@@ -36,7 +26,9 @@ const desks = JSON.parse(readFileSync("desks.json", "utf8"));
 for (const key of ["familyReports", "jpmAllocation", "allocationCompare", "eltifFacts", "privateFlows"]) {
   if (!Array.isArray(desks[key]) || desks[key].length < 1) fail(`desks.${key}`);
 }
+if (!Array.isArray(desks.etfWeeks) || desks.etfWeeks.length < 3) fail("desks.etfWeeks");
+if (!Array.isArray(desks.combinedWeeks) || desks.combinedWeeks.length < 3) fail("desks.combinedWeeks");
+if (!Array.isArray(desks.fundSplit) || desks.fundSplit.length < 3) fail("desks.fundSplit");
 const weight = desks.jpmAllocation.reduce((sum, slice) => sum + Number(slice.weight), 0);
 if (weight < 99 || weight > 101) fail(`jpm allocation sums to ${weight}`);
-
 console.log(`ok ${edition.date}`);

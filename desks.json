@@ -1,142 +1,53 @@
 {
   "familyReports": [
-    {
-      "house": "Citi Wealth",
-      "when": "22.9.2026",
-      "sample": "351 toimistoa, 41 maata. Kysely kesä–heinäkuussa.",
-      "finding": "Julkinen osake on suurin paino, 30 %. Lähes puolet lisäsi sitä, nettolisäys +34 prosenttiyksikköä. PE-rahastot ja suorat sijoitukset kumpikin 9 %.",
-      "href": "https://www.privatebank.citibank.com/press-releases/citi-wealth-2026-global-family-office-report"
-    },
-    {
-      "house": "UBS",
-      "when": "Global Family Office Report 2026",
-      "sample": "Strategiset painot. 60 % aikoo muuttaa allokaatiota vuoden sisällä.",
-      "finding": "Kehittyneiden markkinoiden osakkeet ja korot, ilman vaihtoehtoisia, ovat 41 %. Pohjois-Amerikka on yhä noin puolet aluepainosta. Kiinteistöjä leikataan.",
-      "href": "https://www.ubs.com/content/dam/assets/wm/static/gfo/global-family-office-report-en-2026.pdf"
-    },
-    {
-      "house": "J.P. Morgan Private Bank",
-      "when": "2026 Global Family Office Report",
-      "sample": "Keskimääräinen salkku. Geopolitiikka on yleisin riski.",
-      "finding": "Osakkeet 38,4 %, yksityiset 30,8 %, korot 14,8 %, käteinen 7,8 %. 37 % nostaa PE:tä 12–18 kk:ssa. Tekoälyä priorisoi 65 %, mutta yli puolelta puuttuu venture-paino.",
-      "href": "https://privatebank.jpmorgan.com/content/dam/jpm-pb-aem/global/en/documents/2026-family-office-report/jp-morgan-private-bank-2026-global-family-office-report.pdf"
-    },
-    {
-      "house": "RBC ja Campden Wealth",
-      "when": "29.9.2026",
-      "sample": "155 toimistoa Amerikoissa. Keskimääräinen varallisuus 2,25 mrd. $.",
-      "finding": "Tekoäly on 85 %:lle seuraavan vuoden ykkösvalinta. Suorat sijoitukset 45 % yksityisestä kirjasta. Kyberhuoli 16 % → 59 %. Puolelta puuttuu sukupolvenvaihdoksen suunnitelma.",
-      "href": "https://www.campdenwealth.com/press/2026-rbc-and-campden-wealth-report-north-american-family-offices-shift-caution-optimism-amid"
-    },
-    {
-      "house": "Goldman Sachs",
-      "when": "10.9.2025",
-      "sample": "245 päättäjää. Tuorein kokonainen painokysely, ei syksy 2026.",
-      "finding": "Osakkeet 31 %, vaihtoehtoiset 42 %, käteinen 12 %. Muutosta suunnittelevista 39 % lisää PE:tä, 38 % osakkeita ja 26 % private creditiä.",
-      "href": "https://www.goldmansachs.com/pressroom/press-releases/2025/2025-family-office-investment-insights-report-press-release"
-    }
+    {"house": "Citi Wealth", "when": "22.9.2026", "sample": "351 toimistoa, 41 maata. Kysely kesä–heinäkuussa.", "finding": "Julkinen osake on suurin paino, 30 %. Lähes puolet lisäsi sitä, nettolisäys +34 prosenttiyksikköä. PE-rahastot ja suorat sijoitukset kumpikin 9 %.", "href": "https://www.privatebank.citibank.com/press-releases/citi-wealth-2026-global-family-office-report"},
+    {"house": "UBS", "when": "Global Family Office Report 2026", "sample": "Strategiset painot. 60 % aikoo muuttaa allokaatiota vuoden sisällä.", "finding": "Kehittyneiden markkinoiden osakkeet ja korot, ilman vaihtoehtoisia, ovat 41 %. Pohjois-Amerikka on yhä noin puolet aluepainosta. Kiinteistöjä leikataan.", "href": "https://www.ubs.com/content/dam/assets/wm/static/gfo/global-family-office-report-en-2026.pdf"},
+    {"house": "J.P. Morgan Private Bank", "when": "2026 Global Family Office Report", "sample": "Keskimääräinen salkku. Geopolitiikka on yleisin riski.", "finding": "Osakkeet 38,4 %, yksityiset 30,8 %, korot 14,8 %, käteinen 7,8 %. 37 % nostaa PE:tä 12–18 kk:ssa. Tekoälyä priorisoi 65 %, mutta yli puolelta puuttuu venture-paino.", "href": "https://privatebank.jpmorgan.com/content/dam/jpm-pb-aem/global/en/documents/2026-family-office-report/jp-morgan-private-bank-2026-global-family-office-report.pdf"},
+    {"house": "RBC ja Campden Wealth", "when": "29.9.2026", "sample": "155 toimistoa Amerikoissa. Keskimääräinen varallisuus 2,25 mrd. $.", "finding": "Tekoäly on 85 %:lle seuraavan vuoden ykkösvalinta. Suorat sijoitukset 45 % yksityisestä kirjasta. Kyberhuoli 16 % → 59 %. Puolelta puuttuu sukupolvenvaihdoksen suunnitelma.", "href": "https://www.campdenwealth.com/press/2026-rbc-and-campden-wealth-report-north-american-family-offices-shift-caution-optimism-amid"},
+    {"house": "Goldman Sachs", "when": "10.9.2025", "sample": "245 päättäjää. Tuorein kokonainen painokysely, ei syksy 2026.", "finding": "Osakkeet 31 %, vaihtoehtoiset 42 %, käteinen 12 %. Muutosta suunnittelevista 39 % lisää PE:tä, 38 % osakkeita ja 26 % private creditiä.", "href": "https://www.goldmansachs.com/pressroom/press-releases/2025/2025-family-office-investment-insights-report-press-release"}
   ],
   "jpmAllocation": [
-    {
-      "label": "Julkiset osakkeet",
-      "weight": 38.4,
-      "note": "Suurin yksittäinen siivu"
-    },
-    {
-      "label": "Yksityiset sijoitukset",
-      "weight": 30.8,
-      "note": "Drawdown-rahastot johdossa"
-    },
-    {
-      "label": "Korot",
-      "weight": 14.8,
-      "note": "Kolmas jalka"
-    },
-    {
-      "label": "Käteinen",
-      "weight": 7.8,
-      "note": "Ei enää suurin puskuri"
-    },
-    {
-      "label": "Hedge-rahastot",
-      "weight": 4.7,
-      "note": "Pieni, erillinen"
-    },
-    {
-      "label": "Muu",
-      "weight": 3.5,
-      "note": "Hyödykkeet 1,3, taide 1,0, krypto 0,4 ja muu 0,9. Pyöristys sulkee salkun."
-    }
+    {"label": "Julkiset osakkeet", "weight": 38.4, "note": "Suurin yksittäinen siivu"},
+    {"label": "Yksityiset sijoitukset", "weight": 30.8, "note": "Drawdown-rahastot johdossa"},
+    {"label": "Korot", "weight": 14.8, "note": "Kolmas jalka"},
+    {"label": "Käteinen", "weight": 7.8, "note": "Ei enää suurin puskuri"},
+    {"label": "Hedge-rahastot", "weight": 4.7, "note": "Pieni, erillinen"},
+    {"label": "Muu", "weight": 3.5, "note": "Hyödykkeet 1,3, taide 1,0, krypto 0,4 ja muu 0,9. Pyöristys sulkee salkun."}
   ],
   "allocationCompare": [
-    {
-      "house": "J.P. Morgan",
-      "year": "2026",
-      "equity": 38.4,
-      "sleeve": "Yksityiset sijoitukset",
-      "sleeveWeight": 30.8
-    },
-    {
-      "house": "Citi",
-      "year": "2026",
-      "equity": 30,
-      "sleeve": "PE-rahastot ja suorat",
-      "sleeveWeight": 18
-    },
-    {
-      "house": "Goldman Sachs",
-      "year": "2025",
-      "equity": 31,
-      "sleeve": "Vaihtoehtoiset yhteensä",
-      "sleeveWeight": 42
-    }
+    {"house": "J.P. Morgan", "year": "2026", "equity": 38.4, "sleeve": "Yksityiset sijoitukset", "sleeveWeight": 30.8},
+    {"house": "Citi", "year": "2026", "equity": 30, "sleeve": "PE-rahastot ja suorat", "sleeveWeight": 18},
+    {"house": "Goldman Sachs", "year": "2025", "equity": 31, "sleeve": "Vaihtoehtoiset yhteensä", "sleeveWeight": 42}
   ],
   "eltifFacts": [
-    {
-      "k": "AuM, loppu 2025",
-      "v": "34 mrd. €",
-      "d": "Scope, noin +55 %"
-    },
-    {
-      "k": "Uudet rahastot 2025",
-      "v": "113",
-      "d": "61 vuonna 2024"
-    },
-    {
-      "k": "Uudet 2026, heinäkuu",
-      "v": "49",
-      "d": "21 niistä private credit"
-    },
-    {
-      "k": "Evergreen-osuus",
-      "v": "≥26 / 49",
-      "d": "Scope, elokuu 2026"
-    }
+    {"k": "AuM, loppu 2025", "v": "34 mrd. €", "d": "Scope, noin +55 %"},
+    {"k": "Uudet rahastot 2025", "v": "113", "d": "61 vuonna 2024"},
+    {"k": "Uudet 2026, heinäkuu", "v": "49", "d": "21 niistä private credit"},
+    {"k": "Evergreen-osuus", "v": "≥26 / 49", "d": "Scope, elokuu 2026"}
   ],
   "privateFlows": [
-    {
-      "market": "Private credit, varainhankinta",
-      "when": "2026, vuoden alusta",
-      "move": "+27 %",
-      "note": "Yhdysvallat +40 %. Yli 10 mrd. dollarin rahastot keräsivät kuusinkertaisesti."
-    },
-    {
-      "market": "PE-varainhankinta",
-      "when": "Q1 2026",
-      "move": "155 mrd. $",
-      "note": "−10 % vuodentakaisesta. Eurooppa 28 mrd., Pohjois-Amerikka 98. Preqin."
-    },
-    {
-      "market": "PE-kaupat, Eurooppa",
-      "when": "Q1 2026",
-      "move": "53 mrd. $",
-      "note": "+75 % edellisestä neljänneksestä. Maailman kaupat 164 mrd. Preqin."
-    },
-    {
-      "market": "ICG Europe Fund IX",
-      "when": "Lopullinen sulku 2026",
-      "move": "~14 mrd. $",
-      "note": "Länsi-Euroopan keski- ja ylempi keskikoko. Iso raha menee yhä harvoihin nimiin."
-    }
+    {"market": "Private credit, varainhankinta", "when": "2026, vuoden alusta", "move": "+27 %", "note": "Yhdysvallat +40 %. Yli 10 mrd. dollarin rahastot keräsivät kuusinkertaisesti."},
+    {"market": "PE-varainhankinta", "when": "Q1 2026", "move": "155 mrd. $", "note": "−10 % vuodentakaisesta. Eurooppa 28 mrd., Pohjois-Amerikka 98. Preqin."},
+    {"market": "PE-kaupat, Eurooppa", "when": "Q1 2026", "move": "53 mrd. $", "note": "+75 % edellisestä neljänneksestä. Maailman kaupat 164 mrd. Preqin."},
+    {"market": "ICG Europe Fund IX", "when": "Lopullinen sulku 2026", "move": "~14 mrd. $", "note": "Länsi-Euroopan keski- ja ylempi keskikoko. Iso raha menee yhä harvoihin nimiin."}
+  ],
+  "etfWeeks": [
+    {"week": "9.9.", "equity": -2.56, "bond": 10.88, "commodity": 0.49},
+    {"week": "16.9.", "equity": 15.43, "bond": 9.72, "commodity": 2.12},
+    {"week": "23.9.", "equity": 26.41, "bond": 12.31, "commodity": 0.96},
+    {"week": "30.9.", "equity": 32.65, "bond": 20.51, "commodity": -0.42},
+    {"week": "7.10.", "equity": 21.18, "bond": 25.41, "commodity": 1.3}
+  ],
+  "combinedWeeks": [
+    {"week": "9.9.", "total": 1.63},
+    {"week": "16.9.", "total": -9.45},
+    {"week": "23.9.", "total": 20.04},
+    {"week": "30.9.", "total": -2.3},
+    {"week": "7.10.", "total": 12.35}
+  ],
+  "fundSplit": [
+    {"label": "ETF-nettoanti", "value": 48.22, "note": "Putki"},
+    {"label": "Sijoitusrahastot", "value": -35.87, "note": "Vuoto"},
+    {"label": "Yhteensä", "value": 12.35, "note": "Viikko 7.10."}
   ]
 }
